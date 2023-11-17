@@ -1,0 +1,146 @@
+{
+  "hash": "2342a45a",
+  "browserHash": "d34bc32b",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "1f191ef3",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "aa5ba274",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "1b6c5e00",
+      "needsInterop": false
+    },
+    "react-alert": {
+      "src": "../../node_modules/react-alert/dist/esm/react-alert.js",
+      "file": "react-alert.js",
+      "fileHash": "1fd3ff2e",
+      "needsInterop": false
+    },
+    "react-alert-template-basic": {
+      "src": "../../node_modules/react-alert-template-basic/dist/esm/react-alert-template-basic.js",
+      "file": "react-alert-template-basic.js",
+      "fileHash": "6a133d47",
+      "needsInterop": false
+    },
+    "@apollo/client": {
+      "src": "../../node_modules/@apollo/client/index.js",
+      "file": "@apollo_client.js",
+      "fileHash": "106a7d67",
+      "needsInterop": false
+    },
+    "apollo-link-ws": {
+      "src": "../../node_modules/apollo-link-ws/lib/bundle.esm.js",
+      "file": "apollo-link-ws.js",
+      "fileHash": "d3edc3fe",
+      "needsInterop": false
+    },
+    "subscriptions-transport-ws": {
+      "src": "../../node_modules/subscriptions-transport-ws/dist/client.js",
+      "file": "subscriptions-transport-ws.js",
+      "fileHash": "107456ae",
+      "needsInterop": true
+    },
+    "antd": {
+      "src": "../../node_modules/antd/es/index.js",
+      "file": "antd.js",
+      "fileHash": "abc72301",
+      "needsInterop": false
+    },
+    "axios": {
+      "src": "../../node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "cdae7b29",
+      "needsInterop": false
+    },
+    "graphql-tag": {
+      "src": "../../node_modules/graphql-tag/lib/index.js",
+      "file": "graphql-tag.js",
+      "fileHash": "8a106aa7",
+      "needsInterop": false
+    },
+    "moment": {
+      "src": "../../node_modules/moment/dist/moment.js",
+      "file": "moment.js",
+      "fileHash": "f1fd7281",
+      "needsInterop": false
+    },
+    "@emotion/react": {
+      "src": "../../node_modules/@emotion/react/dist/emotion-react.browser.esm.js",
+      "file": "@emotion_react.js",
+      "fileHash": "59be43a9",
+      "needsInterop": false
+    },
+    "react-spinners": {
+      "src": "../../node_modules/react-spinners/esm/index.js",
+      "file": "react-spinners.js",
+      "fileHash": "a3f4e65e",
+      "needsInterop": false
+    },
+    "date-fns": {
+      "src": "../../node_modules/date-fns/esm/index.js",
+      "file": "date-fns.js",
+      "fileHash": "a49e0d2d",
+      "needsInterop": false
+    },
+    "react-leaflet": {
+      "src": "../../node_modules/react-leaflet/lib/index.js",
+      "file": "react-leaflet.js",
+      "fileHash": "1ebd0a4a",
+      "needsInterop": false
+    },
+    "leaflet": {
+      "src": "../../node_modules/leaflet/dist/leaflet-src.js",
+      "file": "leaflet.js",
+      "fileHash": "610db999",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-GJM3O7BT": {
+      "file": "chunk-GJM3O7BT.js"
+    },
+    "chunk-HFH45EGX": {
+      "file": "chunk-HFH45EGX.js"
+    },
+    "chunk-SO3RD5QP": {
+      "file": "chunk-SO3RD5QP.js"
+    },
+    "chunk-PSGUSLG5": {
+      "file": "chunk-PSGUSLG5.js"
+    },
+    "chunk-O45UNAE3": {
+      "file": "chunk-O45UNAE3.js"
+    },
+    "chunk-LQHJAPLN": {
+      "file": "chunk-LQHJAPLN.js"
+    },
+    "chunk-HNHD5ZHX": {
+      "file": "chunk-HNHD5ZHX.js"
+    },
+    "chunk-HZEMEE72": {
+      "file": "chunk-HZEMEE72.js"
+    },
+    "chunk-UOIPVTYB": {
+      "file": "chunk-UOIPVTYB.js"
+    },
+    "chunk-VHLXFAR4": {
+      "file": "chunk-VHLXFAR4.js"
+    },
+    "chunk-JFCGPLEH": {
+      "file": "chunk-JFCGPLEH.js"
+    },
+    "chunk-AUZ3RYOM": {
+      "file": "chunk-AUZ3RYOM.js"
+    }
+  }
+}

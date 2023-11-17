@@ -1,0 +1,5 @@
+.dialog {
+    height: 34vh;
+    overflow: scroll;
+    box-sizing: border-box;
+}

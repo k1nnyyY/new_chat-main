@@ -1,0 +1,49 @@
+.nav {
+    height: auto;
+    width: 80px;
+    background-color: #1E1E1E8C;
+    border: 1px solid #2B3137;
+    border-radius: 24px;
+    margin-left: 10px;
+    padding: 18px;
+}
+
+.form_control {
+    font-family: system-ui, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.1;
+    display: grid;
+    grid-template-columns: 2em auto;
+    gap: 0.2em;
+}
+
+.nav_button {
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    margin: 16px 0;
+    background: linear-gradient(180deg, #303033 0%, #1C1C21 100%);
+    border: 1px solid #2B3137;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+}
+
+.nav_button:hover {
+    transform: scale(1.05);
+}
+
+.nav_button_active {
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    margin: 16px 0;
+    background: linear-gradient(180deg, #B3B3CA 0%, #2C2C35 100%);
+    outline: 4px auto -webkit-focus-ring-color;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+}
+
+.nav_button_active:hover {
+    transform: scale(1.05);
+}

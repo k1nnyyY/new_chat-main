@@ -1,0 +1,116 @@
+.main {
+    width: 100%;
+    height: auto;
+    padding: 1vh 2vh;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.main_img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-right: 8px;
+}
+
+.main__message {
+    width: auto;
+    max-width: 80%;
+    text-align: left;
+    height: auto;
+    padding: 1vh;
+    background-color: #3B3B44;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    border-radius: 1.5vh;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    
+}
+
+.main__message:hover {
+    background-color: #34343b;
+}
+
+.main__message_date {
+    min-height: 100%;
+    display: flex;
+    align-items: end;
+    font-size: 10px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.main__message_date:hover {
+    cursor: default;
+}
+
+.main__message_date_image {
+    min-height: 100%;
+    display: flex;
+    font-size: 10px;
+    font-weight: 400;
+    opacity: 0.7;
+    justify-content: end;
+    text-align: right;
+}
+
+.main__message_date_image:hover {
+    cursor: default;
+}
+
+
+.main__message_text {
+    max-width: 100%;
+    height: max-content;
+    margin: 0 .5vh;
+    word-break: break-word;
+}
+
+.image {
+    max-width: 20vw;
+    border-radius: 1vh;
+    cursor: pointer;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+}
+
+.image:hover {
+    transform: scale(1.005);
+}
+
+/* Стили для модального окна с увеличенным изображением */
+.imageFullscreenBackdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Затемнение фона */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    cursor: pointer;
+  }
+  
+  .imageFullscreen {
+    max-width: 80%; /* Максимальная ширина увеличенного изображения */
+    max-height: 80vh; /* Максимальная высота увеличенного изображения */
+  }
+  
+  /* Отключение выделения текста на изображении */
+  .imageFullscreen img {
+    user-select: none;
+    -webkit-user-drag: none;
+    cursor: pointer;
+  }

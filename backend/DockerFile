@@ -1,0 +1,23 @@
+# Используйте официальный образ Node в качестве базового образа
+FROM node:latest
+
+# Установите рабочую директорию внутри контейнера
+WORKDIR /Backend
+
+# Скопируйте файлы package.json и package-lock.json
+COPY package*.json ./package.json
+
+# Установите зависимости
+RUN npm install --force
+
+# Скопируйте все файлы проекта в контейнер
+COPY . .
+
+# Соберите проект
+RUN npm run build
+
+# Укажите порт, который будет использоваться контейнером
+EXPOSE 3001
+
+# Запустите приложение Nest
+CMD [ "npm", "run", "start" ]

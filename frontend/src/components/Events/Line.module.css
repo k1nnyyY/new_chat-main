@@ -1,0 +1,72 @@
+.line {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.line_start_light, .line_mid_light, .line_end_light,
+.line_start, .line_mid, .line_end,.line_mid_light_name, .line_mid_name {
+    height: 60px;
+    /* display: flex; */
+    /* align-items: start;
+    justify-content: center; */ 
+    color: white;
+    font-size: 1vw;
+    width: 16vw;
+    padding: 20px 1vw;
+    box-sizing: border-box;
+    text-align: center;
+    white-space: nowrap; /* Текст не переносится */
+    overflow: hidden; /* Обрезаем всё за пределами блока */
+    text-overflow: ellipsis;
+    word-break: break-word;
+
+}
+
+
+.line_end, .line_mid, .line_start, .line_mid_name {
+    background-color: #1D1D1D;
+}
+
+.line_start, .line_start_light {
+    width: 5vw;
+    border-radius: 12px 0 0 12px;
+}
+
+.line_end, .line_end_light {
+    border-radius: 0 12px 12px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+
+}
+
+.line_end_light_button img,
+.line_end_red_button img {
+    width: 20px;
+    height: 20px;
+}
+
+.line_end_light_button {
+    background-color: #242426;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    border: 1px solid #8399B8;
+}
+
+.line_end_red_button {
+    background-color: #242426;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #E03535;
+}
+

@@ -1,0 +1,18 @@
+#root {
+  min-width: 100vw;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(24, 24, 24);
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main_nav {
+  display: flex;
+  align-items: center;
+  height: 90vh;
+}

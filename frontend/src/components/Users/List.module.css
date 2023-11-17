@@ -1,0 +1,35 @@
+.head {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin-top: 10px;
+}
+
+.head_start, .head_mid, .head_end {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222224;
+    color: #8399B8;
+    font-size: 1vw;
+    width: 16vw;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.head_mid:hover, .head_start:hover {
+    cursor: pointer;
+    background-color: #353539;
+}
+
+.head_start {
+    width: 5vw;
+    border-radius: 12px 0 0 12px;
+}
+
+.head_end {
+    border-radius: 0 12px 12px 0;
+}
